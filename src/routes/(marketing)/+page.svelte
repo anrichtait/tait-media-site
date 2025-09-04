@@ -6,10 +6,6 @@
 	import LogosCloud from './components/sections/logos-cloud.svelte';
 	import Pricing from './components/sections/pricing.svelte';
 	import Testimonials from './components/sections/testimonials.svelte';
-
-	export let data;
-
-	const { prices } = data;
 </script>
 
 <svelte:head>
@@ -51,6 +47,5 @@
 				models.
 			</Section.Description>
 		</Section.Header>
-		<Pricing {prices} />
 	</Section.Root>
 </div>
