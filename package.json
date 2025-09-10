@@ -49,6 +49,7 @@
 		]
 	},
 	"dependencies": {
-		"@jis3r/icons": "^1.1.5"
+		"@jis3r/icons": "^1.1.5",
+		"@sveltejs/adapter-vercel": "^5.10.2"
 	}
 }

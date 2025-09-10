@@ -1,5 +1,1 @@
-name = "Tait Media Solutions" # Replace with your actual site name
-
-
-[compatibility_flags]
-nodejs_compat = true
+compatibility_flags = [ "nodejs_compat" ]
