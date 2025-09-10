@@ -1,0 +1,23 @@
+# Tait Media Solutions - SEO Optimized Robots.txt
+User-agent: *
+Allow: /
+
+# Block admin and development files
+Disallow: /admin/
+Disallow: /.svelte-kit/
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /static/favicon*
+Disallow: /*?*utm_*
+
+# Allow important resources
+Allow: /static/
+Allow: /images/
+Allow: /og/
+Allow: /_app/
+
+# Sitemap location
+Sitemap: https://taitmedia.com/sitemap.xml
+
+# Crawl delay to be respectful
+Crawl-delay: 1
